@@ -96,5 +96,5 @@ def format_comparison_result(comparison_data: dict) -> str:
     # Сравнение
     output += "================== ВЫВОД ===================\n"
     output += comparison_data["comparison"]
-
+    
     return output

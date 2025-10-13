@@ -14,5 +14,8 @@ def get_config() -> dict:
         "gpt4_host": os.getenv("GPT4_HOST"),
         "gpt4_url": os.getenv("GPT4_URL"),
         "gpt3_host": os.getenv("GPT3_HOST"),
-        "gpt3_url": os.getenv("GPT3_URL")
+        "gpt3_url": os.getenv("GPT3_URL"),
+        "hf_token": os.getenv("HF_TOKEN"),
+        "hf_host": os.getenv("HF_HOST"),
+        "hf_url": os.getenv("HF_URL")
     }

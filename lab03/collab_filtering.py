@@ -15,9 +15,9 @@ class CollaborativeFiltering:
         Генерация рекомендаций на основе оценок виртуального пользователя
         используя User-Based Collaborative Filtering
         
-        :param virtual_user_ratings: словарь {movie_id: rating} виртуального пользователя
+        :param virtual_user_ratings: словарь виртуального пользователя
         :param num_recommendations: количество возвращаемых рекомендаций
-        :return: список кортежей (movie_id, predicted_rating)
+        :return: список кортежей c id фильмов и предсказанными рейтингами
         """
         print(f"ВИРТУАЛЬНЫЙ ПОЛЬЗОВАТЕЛЬ с разнообразными оценками:")
         for movie_id, rating in virtual_user_ratings.items():
